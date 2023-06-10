@@ -1,0 +1,19 @@
+GET http://localhost:3001/api/persons
+
+###
+GET http://localhost:3001/api/persons/1
+
+###
+DELETE http://localhost:3001/api/persons/759958
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name":"Binura2",
+    "number":"011-5555555"
+}
+
+###
+GET http://localhost:3001/api/randomendpoint
