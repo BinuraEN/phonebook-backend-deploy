@@ -1,10 +1,10 @@
 GET http://localhost:3001/api/persons
 
 ###
-GET http://localhost:3001/api/persons/1
+GET http://localhost:3001/api/persons/ji
 
 ###
-DELETE http://localhost:3001/api/persons/759958
+DELETE http://localhost:3001/api/persons/64aa454181ab1a1d44264d2c
 
 ###
 POST http://localhost:3001/api/persons
@@ -12,6 +12,15 @@ Content-Type: application/json
 
 {
     "name":"Binura2",
+    "number":"011-5555555"
+}
+
+###
+PUT http://localhost:3001/api/persons/64aa454181ab1a1d44264d2c12
+Content-Type: application/json
+
+{
+    "name":"Binura updated",
     "number":"011-5555555"
 }
 
