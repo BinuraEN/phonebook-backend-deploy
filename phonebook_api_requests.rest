@@ -11,16 +11,16 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name":"Binura2",
-    "number":"011-5555555"
+    "name":"chan2",
+    "number":"01-551245ewgw55"
 }
 
 ###
-PUT http://localhost:3001/api/persons/64aa454181ab1a1d44264d2c12
+PUT http://localhost:3001/api/persons/64aa3c06e5ba4ae9defc4469
 Content-Type: application/json
 
 {
-    "name":"Binura updated",
+    "name":"Bi",
     "number":"011-5555555"
 }
 
